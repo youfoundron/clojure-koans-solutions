@@ -21,7 +21,7 @@
   ;        __
   ;        @atomic-clock))
   (= 5 (do
-        (swap! atomic-clock + 4)
+        (swap! atomic-clock + 5)
         @atomic-clock))
 
   "Any number of arguments might happen during a swap"
