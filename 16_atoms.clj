@@ -36,7 +36,7 @@
   ; (= __ (do
   ;         (compare-and-set! atomic-clock 100 :fin)
   ;         @atomic-clock))
-  (= 20 (do
+  (= 0 (do
           (compare-and-set! atomic-clock 100 :fin)
           @atomic-clock))
 
